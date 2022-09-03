@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+    <title>Home | Blanja Online Shopping</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <img src="./assets/img/logo.svg" alt="logo" />
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="d-flex w-100 me-5">
+                        <input class="search form-control me-10" type="search" placeholder="Search" aria-label="Search">
+                        <button class="search-btn btn-outline-success me-2" type="submit">Search</button>
+                        <div class="filter">
+                            <img src="./assets/img/filter.svg" alt="filter" />
+                        </div>
+                    </form>
+                    <img src="./assets/img/cart.svg" class="cart me-5" alt="cart" />
+                    <button class="btn-login rounded-pill me-2">
+                        <a href="./pages/login.html">Login</a>
+                    </button>
+                    <button class="btn-regis border rounded-pill me-2">
+                        <a href="./pages/signup.html">Signup</a>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./assets/img/carousel-trend.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./assets/img/carousel-black.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel-trend.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section class="category mt-5">
+        <h2 class="title ms-5">Category</h2>
+        <p class="text ms-5">What are you currently looking for?</p>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-3 mb-5">
+                    <div class="category-box1">
+                        <img class="category-pic" src="./assets/img/category-jeans.svg" alt="pants" />
+                        <div class="text-centered">Pants</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-3 mb-5">
+                    <div class="category-box2">
+                        <img class="category-pic" src="./assets/img/category-jaket.svg" alt="jacket" />
+                        <div class="text-centered">Jacket</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-3 mb-5">
+                    <div class="category-box3">
+                        <img class="category-pic" src="./assets/img/category-celana.svg" alt="shorts" />
+                        <div class="text-centered">Shorts</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-3 mb-5">
+                    <div class="category-box4">
+                        <img class="category-pic" src="./assets/img/category-baju.svg" alt="t-shirt" />
+                        <div class="text-centered">T-shirts</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="mt-5">
+        <h2 class="title ms-5">New</h2>
+        <p class="text ms-5">You've never seen before!</p>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="border rounded product">
+                        <img class="w-100" src="./assets/img/product.svg" alt="cloth" />
+                        <div class="p-2">
+                            <h5 class="card-title text-start">Men's formal suit -
+                                Black & White</h5>
+                            <h5 class="text-danger text-start">$ 40.0</h5>
+                            <div class="stars">
+                                <img src="./assets/img/Rating.svg" alt="stars" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="border rounded product">
+                        <img class="w-100" src="./assets/img/product.svg" alt="cloth" />
+                        <div class="p-2">
+                            <h5 class="card-title text-start">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger text-start">$ 40.0</h5>
+                            <div class="stars">
+                                <img src="./assets/img/Rating.svg" alt="stars" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="border rounded product">
+                        <img class="w-100" src="./assets/img/product.svg" alt="cloth" />
+                        <div class="p-2">
+                            <h5 class="card-title text-start">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger text-start">$ 40.0</h5>
+                            <div class="stars">
+                                <img src="./assets/img/Rating.svg" alt="stars" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="border rounded product">
+                        <img class="w-100" src="./assets/img/product.svg" alt="cloth" />
+                        <div class="p-2">
+                            <h5 class="card-title text-start">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger text-start">$ 40.0</h5>
+                            <div class="stars">
+                                <img src="./assets/img/Rating.svg" alt="stars" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="border rounded product">
+                        <img class="w-100" src="./assets/img/product.svg" alt="cloth" />
+                        <div class="p-2">
+                            <h5 class="card-title text-start">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger text-start">$ 40.0</h5>
+                            <div class="stars">
+                                <img src="./assets/img/Rating.svg" alt="stars" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="border rounded product">
+                        <img class="w-100" src="./assets/img/product.svg" alt="cloth" />
+                        <div class="p-2">
+                            <h5 class="card-title text-start">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger text-start">$ 40.0</h5>
+                            <div class="stars">
+                                <img src="./assets/img/Rating.svg" alt="stars" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="border rounded product">
+                        <img class="w-100" src="./assets/img/product.svg" alt="cloth" />
+                        <div class="p-2">
+                            <h5 class="card-title text-start">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger text-start">$ 40.0</h5>
+                            <div class="stars">
+                                <img src="./assets/img/Rating.svg" alt="stars" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="border rounded product">
+                        <img class="w-100" src="./assets/img/product.svg" alt="cloth" />
+                        <div class="p-2">
+                            <h5 class="card-title text-start">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger text-start">$ 40.0</h5>
+                            <div class="stars">
+                                <img src="./assets/img/Rating.svg" alt="stars" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-5">
+        <h2 class="title ms-5">Popular</h2>
+        <p class="text ms-5">Find clothes that are trending recently</p>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="border rounded product">
+                        <img class="w-100" src="./assets/img/product.svg" alt="cloth" />
+                        <div class="p-2">
+                            <h5 class="card-title text-start">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger text-start">$ 40.0</h5>
+                            <div class="stars">
+                                <div class="stars">
+                                    <img src="./assets/img/Rating.svg" alt="stars" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="border rounded product">
+                        <img class="w-100" src="./assets/img/product.svg" alt="cloth" />
+                        <div class="p-2">
+                            <h5 class="card-title text-start">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger text-start">$ 40.0</h5>
+                            <div class="stars">
+                                <img src="./assets/img/Rating.svg" alt="stars" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="border rounded product">
+                        <img class="w-100" src="./assets/img/product.svg" alt="cloth" />
+                        <div class="p-2">
+                            <h5 class="card-title text-start">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger text-start">$ 40.0</h5>
+                            <div class="stars">
+                                <img src="./assets/img/Rating.svg" alt="stars" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="border rounded product">
+                        <img class="w-100" src="./assets/img/product.svg" alt="cloth" />
+                        <div class="p-2">
+                            <h5 class="card-title text-start">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger text-start">$ 40.0</h5>
+                            <div class="stars">
+                                <img src="./assets/img/Rating.svg" alt="stars" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="border rounded product">
+                        <img class="w-100" src="./assets/img/product.svg" alt="cloth" />
+                        <div class="p-2">
+                            <h5 class="card-title text-start">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger text-start">$ 40.0</h5>
+                            <div class="stars">
+                                <img src="./assets/img/Rating.svg" alt="stars" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="border rounded product">
+                        <img class="w-100" src="./assets/img/product.svg" alt="cloth" />
+                        <div class="p-2">
+                            <h5 class="card-title text-start">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger text-start">$ 40.0</h5>
+                            <div class="stars">
+                                <img src="./assets/img/Rating.svg" alt="stars" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="border rounded product">
+                        <img class="w-100" src="./assets/img/product.svg" alt="cloth" />
+                        <div class="p-2">
+                            <h5 class="card-title text-start">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger text-start">$ 40.0</h5>
+                            <div class="stars">
+                                <img src="./assets/img/Rating.svg" alt="stars" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-5">
+                    <div class="border rounded product">
+                        <img class="w-100" src="./assets/img/product.svg" alt="cloth" />
+                        <div class="p-2">
+                            <h5 class="card-title text-start">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger text-start">$ 40.0</h5>
+                            <div class="stars">
+                                <img src="./assets/img/Rating.svg" alt="stars" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>

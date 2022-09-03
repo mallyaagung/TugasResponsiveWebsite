@@ -1,0 +1,393 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css");
+
+* {
+    font-family: 'Metropolis', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+
+.form-box {
+    width: 444px;
+    height: 480px;
+    position: relative;
+    margin: 2% auto;
+    background: white;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.form-group {
+    width: 428px;
+}
+
+.nav-pills {
+    margin-left: 55px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #db3022 !important;
+    color: #fff;
+}
+
+.nav-pills .nav-link {
+    background-color: #db3022;
+    color: #9B9B9B;
+    border: 1px solid #9B9B9B !important;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.nav-pills .nav-link:hover {
+    color: #db3022;
+    border: 1px solid #db3022 !important;
+
+}
+
+.tab-pane {
+    margin: 30px;
+}
+
+.form-control {
+    margin: 10px;
+}
+
+.float-end,
+.float-end:hover {
+    color: #db3022;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.submit-btn {
+    width: 90%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 0px auto;
+    background: #db3022;
+    border-radius: 20px;
+    border: none;
+}
+
+.text-regis {
+    text-align: center;
+    padding-top: 1em;
+    font-size: 14px;
+}
+
+.regis,
+.regis:hover {
+    color: #db3022;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.primary,
+.primary:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.centered {
+    color: white;
+    position: relative;
+    left: 118%;
+    transform: translate(-50%, -290%);
+    font-weight: 700;
+    font-size: 25px;
+    text-decoration: none !important;
+}
+
+.text-centered {
+    color: white;
+    position: relative;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -258%);
+    text-decoration: none !important;
+    font-weight: 700;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.category {
+    background-color: #F0F1F9;
+}
+
+.category-box1 {
+    width: 180px;
+    height: 180px;
+    background-color: #CC0B04;
+    padding-top: 25px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.category-box2 {
+    width: 180px;
+    height: 180px;
+    background-color: #1C3391;
+    padding-top: 25px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.category-box3 {
+    width: 180px;
+    height: 180px;
+    background-color: #F67B02;
+    padding-top: 25px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.category-box4 {
+    width: 180px;
+    height: 180px;
+    background-color: #E31F51;
+    padding-top: 25px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.title {
+    padding-top: 10px;
+    padding-left: 60px;
+    font-weight: 700 !important;
+}
+
+.text {
+    color: #9B9B9B;
+    padding-top: 10px;
+    padding-left: 60px;
+    font-size: small;
+}
+
+.stars {
+    margin-right: 150px;
+}
+
+.filter {
+    width: 40px;
+    height: 30px;
+    margin: auto;
+    border: 1px solid #9B9B9B !important;
+    border-radius: 5px;
+    text-align: center !important;
+    cursor: pointer;
+}
+
+.cart {
+    cursor: pointer;
+}
+
+.bell {
+    cursor: pointer;
+}
+
+.mail {
+    cursor: pointer;
+}
+
+.profile {
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.collapse {
+    margin-left: 80px;
+}
+
+.search-btn {
+    margin-top: 13px;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid #9B9B9B;
+    color: #9B9B9B;
+}
+
+.search-btn:hover {
+    background-color: #db3022;
+    border: 1px solid #9B9B9B;
+}
+
+.search {
+    margin-left: 100px;
+    border-radius: 50px;
+}
+
+.btn-login {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #9B9B9B;
+    background-color: #db3022;
+}
+
+.btn-regis {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #9B9B9B;
+    background-color: white;
+}
+
+.btn-login a {
+    text-decoration: none !important;
+    color: white;
+}
+
+.btn-regis a {
+    text-decoration: none !important;
+    color: black;
+}
+
+.carousel-inner {
+    margin-top: 100px;
+}
+
+.promotion {
+    width: 700px !important;
+    height: 300px !important;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.carousel-control {
+    margin: 150px !important;
+}
+
+.carousel-text {
+    margin-bottom: 90px;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.btn-buy {
+    border-radius: 50px;
+    border: none;
+    width: 241px;
+    height: 34px;
+    background-color: #db3022;
+    color: white;
+    font-size: 14px;
+}
+
+.btn {
+    border-radius: 50px;
+    border: 1px solid black;
+    width: 117px;
+    font-size: 14px;
+}
+
+.baju {
+    width: 300px;
+}
+
+#main-image {
+    width: 368px;
+}
+
+.text-route {
+    padding-left: 69px;
+    color: #9B9B9B;
+    font-size: small;
+}
+
+.price {
+    color: #9B9B9B;
+    font-size: small;
+}
+
+.price-tag {
+    margin-left: 0;
+    margin-top: -10px;
+}
+
+.color-btn {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+}
+
+.minus {
+    height: 32px;
+    background-color: #9B9B9B;
+    border-radius: 50px;
+    border: none;
+    font-size: 56px;
+    font-weight: 300;
+    width: 33px;
+    line-height: 1px;
+    color: white;
+}
+
+h2 {
+    margin: 0 20px;
+}
+
+.plus {
+    height: 32px;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid #9B9B9B;
+    font-size: 35px;
+    font-weight: 300;
+    width: 33px;
+    line-height: 1px;
+    color: black;
+}
+
+sub {
+    vertical-align: sub;
+    font-size: small;
+    color: #9B9B9B;
+    bottom: 0.75em !important;
+}
+
+.helper {
+    height: 100%;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: small;
+}
+
+.helper-1 {
+    height: 100%;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-left: 125px;
+    font-size: small;
+}
+
+.helper-2 {
+    height: 100%;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-left: 128px;
+    font-size: small;
+}

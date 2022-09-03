@@ -1,0 +1,562 @@
+@media screen and (max-width: 575.98px) {
+    .promotion {
+        width: auto !important;
+        height: 175px !important;
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    .carousel-control {
+        display: block;
+        margin: -7px;
+    }
+
+    .carousel-text {
+        margin-bottom: 34px;
+        color: white;
+        font-weight: 700;
+        font-size: 25px;
+    }
+
+    .title {
+        margin-left: -27px !important;
+        font-weight: 700 !important;
+    }
+
+    .text {
+        color: #9B9B9B;
+        margin-left: -27px !important;
+        font-size: small;
+    }
+
+    .col-6 {
+        width: 46% !important;
+    }
+
+    .category {
+        margin-left: -16px;
+    }
+
+    .category-box1 {
+        width: 180px;
+        height: 180px;
+        background-color: #CC0B04;
+        padding-top: 25px;
+        margin: auto;
+        border-radius: 5px;
+    }
+
+    .category-box3 {
+        width: 180px;
+        height: 180px;
+        background-color: #F67B02;
+        padding-top: 25px;
+        margin: auto;
+        border-radius: 5px;
+    }
+
+    .category-box2 {
+        width: 180px;
+        height: 180px;
+        background-color: #1C3391;
+        padding-top: 25px;
+        margin: auto;
+        border-radius: 5px;
+    }
+
+    .category-box4 {
+        width: 180px;
+        height: 180px;
+        background-color: #E31F51;
+        padding-top: 25px;
+        margin: auto;
+        border-radius: 5px;
+    }
+
+    .stars {
+        margin-right: 395px;
+    }
+
+    .search {
+        margin-left: 10px;
+        border-radius: 50px;
+    }
+
+    .collapse {
+        margin-left: 0px;
+    }
+
+    .cart {
+        margin-left: 170px;
+    }
+}
+
+@media screen and (min-width:576px) {
+    .promotion {
+        width: auto !important;
+        height: 220px !important;
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    .carousel-control {
+        display: block;
+        margin: 10px;
+    }
+
+    .carousel-text {
+        margin-bottom: 50px;
+        color: white;
+        font-weight: 700;
+        font-size: 25px;
+    }
+
+    .title {
+        margin-left: -27px !important;
+        font-weight: 700 !important;
+    }
+
+    .text {
+        color: #9B9B9B;
+        margin-left: -27px !important;
+        font-size: small;
+    }
+
+    .col-6 {
+        width: 47% !important;
+        margin-left: 16px;
+    }
+
+    .category {
+        margin-left: -16px;
+    }
+
+    .stars {
+        margin-right: 395px;
+    }
+
+    .search {
+        margin-left: 10px;
+        border-radius: 50px;
+    }
+
+    .collapse {
+        margin-left: 0px;
+    }
+
+    .cart {
+        margin-left: 305px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .promotion {
+        width: 700px !important;
+        height: 260px !important;
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    .carousel-control {
+        display: block;
+        margin: 10px;
+    }
+
+    .carousel-text {
+        margin-bottom: 78px;
+        color: white;
+        font-weight: 700;
+        font-size: 25px;
+    }
+
+    .title {
+        margin-left: -27px !important;
+        font-weight: 700 !important;
+    }
+
+    .text {
+        color: #9B9B9B;
+        margin-left: -27px !important;
+        font-size: small;
+    }
+
+    .col-6 {
+        width: 47% !important;
+        margin-left: 16px;
+    }
+
+    .category {
+        margin-left: -16px;
+    }
+
+    .category-box1 {
+        width: 180px;
+        height: 180px;
+        background-color: #CC0B04;
+        padding-top: 25px;
+        margin: auto;
+        border-radius: 5px;
+    }
+
+    .category-box2 {
+        width: 180px;
+        height: 180px;
+        background-color: #1C3391;
+        padding-top: 25px;
+        margin: auto;
+        border-radius: 5px;
+    }
+
+    .category-box3 {
+        width: 180px px;
+        height: 180px;
+        background-color: #F67B02;
+        padding-top: 25px;
+        margin: auto;
+        border-radius: 5px;
+    }
+
+    .category-box4 {
+        width: 180px;
+        height: 180px;
+        background-color: #E31F51;
+        padding-top: 25px;
+        margin: auto;
+        border-radius: 5px;
+    }
+
+    .stars {
+        margin-right: 395px;
+    }
+
+    .search {
+        margin-left: 10px;
+        border-radius: 50px;
+    }
+
+    .collapse {
+        margin-left: 0px;
+    }
+
+    .cart {
+        cursor: pointer;
+        margin-left: 475px;
+    }
+
+    .bell {
+        cursor: pointer;
+    }
+
+    .mail {
+        cursor: pointer;
+    }
+
+    .profile {
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .product {
+        margin-left: 40px;
+    }
+
+    .images {
+        margin-right: -46px;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .promotion {
+        width: 730px !important;
+        height: 270px !important;
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    .carousel-control {
+        display: block;
+        margin: 80px;
+    }
+
+    .carousel-text {
+        margin-bottom: 92px;
+        color: white;
+        font-weight: 700;
+        font-size: 25px;
+    }
+
+    .title {
+        margin-left: -27px !important;
+        font-weight: 700 !important;
+    }
+
+    .text {
+        color: #9B9B9B;
+        margin-left: -27px !important;
+        font-size: small;
+    }
+
+    .col-6 {
+        width: 47% !important;
+        margin-left: 16px;
+    }
+
+    .category {
+        margin-left: -16px;
+    }
+
+    .category-box1 {
+        width: 180px;
+        height: 180px;
+        background-color: #CC0B04;
+        padding-top: 25px;
+        margin: auto 40px;
+        border-radius: 5px;
+    }
+
+    .category-box2 {
+        width: 180px;
+        height: 180px;
+        background-color: #1C3391;
+        padding-top: 25px;
+        margin: auto 40px;
+        border-radius: 5px;
+    }
+
+    .category-box3 {
+        width: 180px;
+        height: 180px;
+        background-color: #F67B02;
+        padding-top: 25px;
+        margin: auto 40px;
+        border-radius: 5px;
+    }
+
+    .category-box4 {
+        width: 180px;
+        height: 180px;
+        background-color: #E31F51;
+        padding-top: 25px;
+        margin: auto 40px;
+        border-radius: 5px;
+    }
+
+    .stars {
+        margin-right: 395px;
+    }
+
+    .search {
+        margin-left: 10px;
+        border-radius: 50px;
+    }
+
+    .collapse {
+        margin-left: 0px;
+    }
+
+    .cart {
+        margin-left: 0px;
+    }
+
+    .profile {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .promotion {
+        width: 890px !important;
+        height: 330px !important;
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    .carousel-control {
+        display: block;
+        margin: 100px;
+    }
+
+    .carousel-text {
+        margin-bottom: 92px;
+        color: white;
+        font-weight: 700;
+        font-size: 25px;
+    }
+
+    .title {
+        margin-left: -27px !important;
+        font-weight: 700 !important;
+    }
+
+    .text {
+        color: #9B9B9B;
+        margin-left: -27px !important;
+        font-size: small;
+    }
+
+    .col-6 {
+        width: 47% !important;
+        margin-left: 16px;
+    }
+
+    .category {
+        margin-left: -16px;
+    }
+
+    .category-box1 {
+        width: 180px;
+        height: 180px;
+        background-color: #CC0B04;
+        padding-top: 25px;
+        margin: auto 60px;
+        border-radius: 5px;
+    }
+
+    .category-box2 {
+        width: 180px;
+        height: 180px;
+        background-color: #1C3391;
+        padding-top: 25px;
+        margin: auto 60px;
+        border-radius: 5px;
+    }
+
+    .category-box3 {
+        width: 180px;
+        height: 180px;
+        background-color: #F67B02;
+        padding-top: 25px;
+        margin: auto 60px;
+        border-radius: 5px;
+    }
+
+    .category-box4 {
+        width: 180px;
+        height: 180px;
+        background-color: #E31F51;
+        padding-top: 25px;
+        margin: auto 60px;
+        border-radius: 5px;
+    }
+
+    .stars {
+        margin-right: 395px;
+    }
+
+    .search {
+        margin-left: 10px;
+        border-radius: 50px;
+    }
+
+    .collapse {
+        margin-left: 0px;
+    }
+
+    .cart {
+        margin-left: 0px;
+    }
+
+    .profile {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .promotion {
+        width: 1000px !important;
+        height: 350px !important;
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    .carousel-control {
+        display: block;
+        margin: 120px;
+    }
+
+    .carousel-text {
+        margin-bottom: 118px;
+        color: white;
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .title {
+        margin-left: -27px !important;
+        font-weight: 700 !important;
+    }
+
+    .text {
+        color: #9B9B9B;
+        margin-left: -27px !important;
+        font-size: small;
+    }
+
+    .col-6 {
+        width: 47% !important;
+        margin-left: 16px;
+    }
+
+    .category {
+        margin-left: -16px;
+    }
+
+    .category-box1 {
+        width: 180px;
+        height: 180px;
+        background-color: #CC0B04;
+        padding-top: 25px;
+        margin: auto 90px;
+        border-radius: 5px;
+    }
+
+    .category-box2 {
+        width: 180px;
+        height: 180px;
+        background-color: #1C3391;
+        padding-top: 25px;
+        margin: auto 90px;
+        border-radius: 5px;
+    }
+
+    .category-box3 {
+        width: 180px;
+        height: 180px;
+        background-color: #F67B02;
+        padding-top: 25px;
+        margin: auto 90px;
+        border-radius: 5px;
+    }
+
+    .category-box4 {
+        width: 180px;
+        height: 180px;
+        background-color: #E31F51;
+        padding-top: 25px;
+        margin: auto 90px;
+        border-radius: 5px;
+    }
+
+    .stars {
+        margin-right: 395px;
+    }
+
+    .search {
+        margin-left: 10px;
+        border-radius: 50px;
+    }
+
+    .collapse {
+        margin-left: 0px;
+    }
+
+    .cart {
+        margin-left: 0px;
+    }
+
+    .profile {
+        margin-right: 20px;
+    }
+}
